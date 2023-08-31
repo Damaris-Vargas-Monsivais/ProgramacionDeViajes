@@ -1,0 +1,47 @@
+.select2-danger:hover{
+    border-color: #e83e3e;
+}
+.select2-danger{
+    border-color: #bbbbbb;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da;
+    padding: 0.46875rem 0.75rem;
+    height: calc(2.25rem + 2px);
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+    height: auto;
+    margin-top: -3px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 28px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+select {
+    background-color: dark;
+    color: white;
+    border-color: gray-600;
+  }

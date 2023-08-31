@@ -1,0 +1,61 @@
+
+.perfil_data {
+   text-align: center;
+}
+.perfil_title {
+   font-family: 'Berlin Sans FB', sans-serif;
+   text-align: center;
+   font-size: 2rem;
+   color: #000000;
+   margin-bottom: 1rem;
+}
+.perfil_subtitle {
+   font-family: 'Bahnschrift SemiLight SemiConde', 'Segoe UI';
+   text-align: center;
+   font-size: 1.5rem;
+   color: #303030;
+   margin-bottom:.5rem;
+}
+/*COLOR DE FONDO*/
+.content-wrapper {
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-silab-login-png {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+.imagen-bienvenida-duma {
+    display: inherit;
+    width: 100%;
+    height: 1100px;
+    padding: 100px;
+    align-items: flex-start;
+    margin-bottom: 600px;
+}
+.imagen-sinfondo{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 7px;
+    margin-bottom: 5px;
+
+
+    
+}
+

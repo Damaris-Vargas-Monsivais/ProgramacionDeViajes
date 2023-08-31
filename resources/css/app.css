@@ -1,0 +1,3 @@
+[class*=sidebar-dark-] {
+    background: linear-gradient(to bottom, rgb(14, 14, 150), rgb(36, 145, 235), rgb(51, 218, 240));
+}

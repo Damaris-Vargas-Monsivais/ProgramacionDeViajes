@@ -1,0 +1,28 @@
+/*AÑADIR FOTO DEL OPERADOR*/
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0059ff;
+    border-color: #0059ff;
+    box-shadow: none;
+}
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #c90000;
+    border-color: #c90000;
+    box-shadow: none;
+}
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #a00101;
+    border-color: #a00101;
+    box-shadow: none;
+}
+
+

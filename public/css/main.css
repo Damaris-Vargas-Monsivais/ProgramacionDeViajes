@@ -1,0 +1,32 @@
+/*COLORES DE LOS NAVBAR VERTICALES*/
+.layout-navbar-fixed .wrapper .sidebar-dark-danger .brand-link:not([class*=navbar]) {
+    background-color: #590202;
+}
+[class*=sidebar-dark-] {
+    background: linear-gradient(to bottom, rgb(97, 0, 0), rgb(160, 0, 0), rgb(228, 0, 0));
+}
+/*COLORES DE LA BARRA HORIZONTAL*/
+.navbar-dark {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6
+}
+
+[class*=sidebar-dark] .brand-link {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.content-wrapper {
+    background-color: #f4f6f9;
+}
+/*COLOR DEL BOTON DESPLEGABLE*/
+.navbar-white {
+    background-color: #fff;
+    color: #727272;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #727272;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.7);
+}
