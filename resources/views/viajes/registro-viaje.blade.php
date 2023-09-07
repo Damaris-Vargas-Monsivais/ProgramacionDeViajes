@@ -7,7 +7,6 @@
 @stop
 
 @section('content')
-
 <section class="content-header">
   <div class="container-fluid">
     <div class="row mb-2">
@@ -26,215 +25,246 @@
 
 <section class="content">
   <div class="container-fluid">
-    <div class="row mb-2">
+    <div class="row">
+
       <div class="col-md-12">
         <div class="card card-primary">
           <div class="card-header">
-            <h3 class="card-title">Nuevo Viaje</h3>
+            <h3 class="card-title">Viaje Nuevo</h3>
           </div>
 
-          <form>
-            <div class="card-body">
-              <label for="exampleInputName">Fecha de carga</label>
-              <div class="col-md-3 input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-6">
+                 <!-- Date -->
+                 <div class="form-group">
+                  <label>Fecha de carga</label>
+                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
+                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
                 </div>
-                <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" inputmode="numeric">
               </div>
-
-              <label for="exampleInputName">Fecha de salida</label>
-              <div class="col-md-3 input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Fecha de salida</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                    </div>
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask>
+                  </div>
                 </div>
-                <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" inputmode="numeric">
-              </div>
-
-              <label for="exampleInputName">Fecha de llegada</label>
-              <div class="col-md-3 input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
-                </div>
-                <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" inputmode="numeric">
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Estado</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Semana</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">1</option>
-                  <option data-select2-id="61">2</option>
-                  <option data-select2-id="62">3</option>
-                  <option data-select2-id="63">4</option>
-                  <option data-select2-id="64">5</option>
-                  <option data-select2-id="65">6</option>
-                  <option data-select2-id="66">7</option>
-                  <option data-select2-id="61">2</option>
-                  <option data-select2-id="62">3</option>
-                  <option data-select2-id="63">4</option>
-                  <option data-select2-id="64">5</option>
-                  <option data-select2-id="65">6</option>
-                  <option data-select2-id="66">7</option>
-                  <option data-select2-id="61">2</option>
-                  <option data-select2-id="62">3</option>
-                  <option data-select2-id="63">4</option>
-                  <option data-select2-id="64">5</option>
-                  <option data-select2-id="65">6</option>
-                  <option data-select2-id="66">7</option>
-                  <option data-select2-id="61">2</option>
-                  <option data-select2-id="62">3</option>
-                  <option data-select2-id="63">4</option>
-                  <option data-select2-id="64">5</option>
-                  <option data-select2-id="65">6</option>
-                  <option data-select2-id="66">7</option>
-                  <option data-select2-id="61">2</option>
-                  <option data-select2-id="62">3</option>
-                  <option data-select2-id="63">4</option>
-                  <option data-select2-id="64">5</option>
-                  <option data-select2-id="65">6</option>
-                  <option data-select2-id="66">7</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Nombre del operador</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Numero de tracto</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Numero de remolque</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-                <label>Nombre del cliente</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-              <label>Estado de Origen</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-              <label>Ciudad de Origen</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-              <label>Estado De Destino</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-
-              <div class="col-md-3 form-group">
-              <label>Ciudad de Destino</label>
-                <select class="form-control select2 select2-danger select2-hidden-accessible" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                  <option selected="selected" data-select2-id="14">Zacatecas</option>
-                  <option data-select2-id="61">Sonora</option>
-                  <option data-select2-id="62">Sinaloa</option>
-                  <option data-select2-id="63">Durango</option>
-                  <option data-select2-id="64">Tamailipas</option>
-                  <option data-select2-id="65">Chihuahua</option>
-                  <option data-select2-id="66">Tabasco</option>
-                </select><span class="select2 select2-container select2-container--default select2-container--below" dir="ltr" data-select2-id="13" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-zldc-container"><span class="select2-selection__rendered" id="select2-zldc-container" role="textbox" aria-readonly="true" title="Alabama">Alabama</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
-              </div>
-              
-              <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Guardar</button>
               </div>
             </div>
-          </form>
+
+            <div class="row">
+              <div class="col-sm-6">
+              <div class="form-group">
+                  <label>Fecha de llegada</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                    </div>
+                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Estado de la Carga</label>
+                  <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
+                    <option selected="selected">Cargado</option>
+                    <option>Vacio</option>
+                    <option>Accidente</option>
+                    <option>Robo</option>
+                    <option>Otro...</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Semana</label>
+                  <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Nombre del Operador</label>
+                  <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
+                    <option selected="selected">Jose Luis</option>
+                    <option>Ramon</option>
+                    <option>Felipe</option>
+                    <option>Toño</option>
+                    <option>Lucio</option>
+                    <option>Benjamin</option>
+                    <option>Ignacio</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Número de Trácto</label>
+                  <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
+                    <option selected="selected">1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Número de Remolque</label>
+                  <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
+                    <option selected="selected">1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Nombre del Cliente</label>
+                  <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">METARPOL SA DE CV</option>
+                    <option>CAU SA DE CV</option>
+                    <option>RACKS Y LAMINADOS SA DE CV</option>
+                    <option>INDIGO TRADE MEXICO, SA DE CV</option>
+                    <option>J&J PRINTING</option>
+                    <option>VENTACERO</option>
+                    <option>KLEAN AIR</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+              <div class="form-group">
+                  <label>Estado de Origen</label>
+                  <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">Coahuila</option>
+                    <option>Queretaro</option>
+                    <option>Tabasco</option>
+                    <option>Guanajuato</option>
+                    <option>Cd. de México</option>
+                    <option>Veracruz</option>
+                    <option>Puebla</option>
+                  </select>
+                </div>                           
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Ciudad de Origen</label>
+                  <select class="form-control select2"  style="width: 100%;">
+                    <option selected="selected">Torreón</option>
+                    <option>Gomez Palacio</option>
+                    <option>Lerdo</option>
+                    <option>Matamoros</option>
+                    <option>Pesqueria</option>
+                    <option>Fresnillo</option>
+                    <option>San Pedro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Estado de Destino</label>
+                  <select class="form-control select2" style="width: 100%;">
+                    <option selected="selected">Hidalgo</option>
+                    <option>Tamaulipas</option>
+                    <option>Sonora</option>
+                    <option>Michoacan</option>
+                    <option>Guadalajara</option>
+                    <option>Chihuahua</option>
+                    <option>Quintana Roo</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <label>Ciudad de Destino</label>
+                  <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
+                    <option selected="selected">Pesqueria</option>
+                    <option>Gomez Palacio</option>
+                    <option>Lerdo</option>
+                    <option>Matamoros</option>
+                    <option>Torreón</option>
+                    <option>Fresnillo</option>
+                    <option>San Pedro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary-G">Guardar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
 </section>
 
-
+<footer class="m-footer">
+    <div class="float-right d-none d-sm-block">
+        <b>Grupo Duma</b>
+    </div>
+    <strong>Copyright &copy; <a href="www.gduma.com">Pagina web de Duma</a>.</strong>
+</footer>
 @stop
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-<link rel="stylesheet" href="{{ asset('css/tablas.css') }}"> 
-<link rel="stylesheet" href="{{ asset('css/viajes.css') }}"> 
+<link rel="stylesheet" href="{{ asset('css/tablas.css') }}">
+<link rel="stylesheet" href="{{ asset('css/viajes.css') }}">
 
 
+<!-- Select2 -->
+<link rel="stylesheet" href="{{ asset('plugins/select2/css/select2.min.css') }}">
+<link rel="stylesheet" href="{{ asset('plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css') }}">
 
+
+<!-- Theme style -->
+<link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
+
+
+<!-- jQuery -->
+<script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+
+<!-- Select2 -->
+<script src="{{ asset('plugins/select2/js/select2.full.min.js') }}"></script>
 
 @stop
 

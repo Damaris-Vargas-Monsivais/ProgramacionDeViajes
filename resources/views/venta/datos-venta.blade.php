@@ -83,7 +83,7 @@
                                 <input type="money" class="form-control" id="exampleInputMoneda" placeholder="MXN">
                             </div>
                             <div class="card-footer">
-                                <button type="submit" class="btn btn-primary">Guardar</button>
+                                <button type="submit" class="btn btn-primary-G">Guardar</button>
                             </div>
                         </div>
                     </form>
@@ -93,7 +93,12 @@
     </div>
 
 </section>
-
+<footer class="m-footer">
+    <div class="float-right d-none d-sm-block">
+        <b>Grupo Duma</b>
+    </div>
+    <strong>Copyright &copy; <a href="www.gduma.com">Pagina web de Duma</a>.</strong>
+</footer>
 @stop
 
 @section('css')

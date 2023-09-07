@@ -36,6 +36,10 @@ Route::get('/datos-venta', function () {
     return view('venta.datos-venta');
 });
 
+
+Route::get('/prueba', function () {
+    return view('reseteo.prueba');
+});
 /*
 Route::get('/', function () {
     // return view('panel-control');

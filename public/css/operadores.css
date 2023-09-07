@@ -1,14 +1,8 @@
 /*AÑADIR FOTO DEL OPERADOR*/
-.btn-primary {
+.btn-primary-S{
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-    box-shadow: none;
-}
-.btn-primary:hover {
-    color: #fff;
-    background-color: #0059ff;
-    border-color: #0059ff;
     box-shadow: none;
 }
 

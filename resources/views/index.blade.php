@@ -16,6 +16,13 @@
 <h1 class="perfil_title">Bienvenido a Programación de viajes y Reseteos</h1>
   <h4 class="perfil_subtitle">En este sistema podrás encontrar la programación de viajes y reseteos que realiza Duma y todo lo referente a dichos viajes y sus clientes</h4>
 </div>
+
+<footer class="m-footer">
+    <div class="float-right d-none d-sm-block">
+        <b>Grupo Duma</b>
+    </div>
+    <strong>Copyright &copy; <a href="www.gduma.com">Pagina web de Duma</a>.</strong>
+</footer>
 @stop
 <!-----Aqui termina el contenido de nuestra pagina------>
 <!-----Aqui agregamos css------>

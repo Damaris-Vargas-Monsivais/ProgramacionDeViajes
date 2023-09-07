@@ -1,20 +1,20 @@
 .card-primary:not(.card-outline)>.card-header {
-    background-color: #af0011;
+    background-color: #af0011 !important;
 }
-.btn-primary {
-    color: #060606;
-    background-color: #fab907;
-    border-color: #fab907;
-    box-shadow: none;
+.btn-primary-G {
+    color: #060606 !important;
+    background-color: #fab907 !important;
+    border-color: #fab907 !important;
+    box-shadow: none !important;
 }
-.btn-primary:hover {
+.btn-primary-G:hover {
     color: #060606;
-    background-color: #fd9c00;
-    border-color: #fd9c00;
-    box-shadow: none;
+    background-color: #fd9c00 !important;
+    border-color: #fd9c00 !important;
+    box-shadow: none !important;
 }
 .card-footer {
-    padding: 0.75rem 1.25rem;
-    background-color: #fff;
-    border-top: 0 solid rgba(0,0,0,.125);
+    padding: 0.75rem 1.25rem !important;
+    background-color: #fff !important;
+    border-top: 0 solid rgba(0,0,0,.125)!important;
 }
