@@ -26,6 +26,13 @@ Route::get('/registro-operador', function () {
 Route::get('/registro-viaje', function () {
     return view('viajes.registro-viaje');
 });
+Route::get('/home', function () {
+    return view('viajes.home');
+});
+Route::get('/viajes-pendientes', function () {
+    return view('viajes.viajes-pendientes');
+});
+
 Route::get('/registro-tracto', function () {
     return view('reseteo.registro-tracto');
 });

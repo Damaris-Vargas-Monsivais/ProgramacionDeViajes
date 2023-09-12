@@ -37,8 +37,8 @@
             <div class="row">
               <div class="col-sm-6">
                  <!-- Date -->
-                 <div class="form-group">
-                  <label>Fecha de carga</label>
+                <div class="form-group">
+                    <label>Fecha de carga</label>
                     <div class="input-group date" id="reservationdate" data-target-input="nearest">
                         <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
                         <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
@@ -239,9 +239,9 @@
 
 <footer class="m-footer">
     <div class="float-right d-none d-sm-block">
-        <b>Grupo Duma</b>
+        <a href="www.gduma.com">Pagina web de Duma</a>.
     </div>
-    <strong>Copyright &copy; <a href="www.gduma.com">Pagina web de Duma</a>.</strong>
+    <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
 @stop
 

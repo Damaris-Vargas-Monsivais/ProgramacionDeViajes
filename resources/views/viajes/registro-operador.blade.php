@@ -140,9 +140,9 @@
 </section>
 <footer class="m-footer">
     <div class="float-right d-none d-sm-block">
-        <b>Grupo Duma</b>
+        <a href="www.gduma.com">Pagina web de Duma</a>.
     </div>
-    <strong>Copyright &copy; <a href="www.gduma.com">Pagina web de Duma</a>.</strong>
+    <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
 
 

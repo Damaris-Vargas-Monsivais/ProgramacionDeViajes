@@ -55,3 +55,8 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+/*BOTON DE HOME*/
+.alert a {
+    color: #fff;
+    text-decoration: auto;
+}

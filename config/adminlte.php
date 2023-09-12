@@ -290,23 +290,13 @@ return [
     */
 
     'menu' => [
-        // Navbar items:
-        /*
-        [
-            'type'         => 'navbar-search',
-            'text'         => 'search',
-            'topnav_right' => true,
-        ],
-        [
-            'type'         => 'fullscreen-widget',
-            'topnav_right' => true,
-        ],
+        
 
         // Sidebar items:
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
-        ],*/
+        ],
         [
             'text' => 'blog',
             'url'  => '/index',
@@ -334,10 +324,31 @@ return [
         ],
         ['header' => 'Programacion de Viajes'],
         [
+            'text' => 'Viajes',
+            'icon' => 'fas fa-fw fa-file-alt',
+            'submenu' => [
+                [
+                    'text' => 'Registro de nuevo viaje',
+                    'url'  => '/registro-viaje',
+                    'icon' => 'fas fa-fw fa-file-alt',
+                ],
+                [
+                    'text' => 'Viajes registrados',
+                    'url'  => '/home',
+                    'icon' => 'fas fa-fw fa-file-alt',                     
+                ],
+                [
+                    'text' => 'Pendientes',
+                    'url'  => '/viajes-pendientes',
+                    'icon' => 'fas fa-truck-loading',
+                ],
+            ],
+        ],
+        /*[
             'text' => 'Registro de nuevo viaje',
             'url'  => '/registro-viaje',
             'icon' => 'fas fa-fw fa-file-alt',
-        ],
+        ],*/
         [
             'text' => 'Datos de venta',
             'url'  => '/datos-venta',
