@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 <!-----Implementa la vista de adminlte------>
-@section('title', 'DUMA')
+@section('title', 'Operadores')
 <!-----Aqui podemos agregar un titulo a nuestra pagina------>
 @section('content_header')
 
@@ -15,7 +15,7 @@
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index">Home</a></li>
                     <li class="breadcrumb-item active">Registro de Operadores</li>
                 </ol>
             </div>
@@ -138,9 +138,9 @@
     </div>
     </div>
 </section>
-<footer class="m-footer">
-    <div class="float-right d-none d-sm-block">
-        <a href="www.gduma.com">Pagina web de Duma</a>.
+<footer class="main-footer">
+    <div class="float-end d-none d-sm-inline">
+       <a href="www.gduma.com">Pagina web de Duma</a>.
     </div>
     <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
@@ -295,7 +295,8 @@
 <!-----Aqui agregamos css------>
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-<link rel="stylesheet" href="{{ asset('css/tablas.css') }}">
+<link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/formulario.css') }}">
 <link rel="stylesheet" href="{{ asset('css/operadores.css') }}">
 
 

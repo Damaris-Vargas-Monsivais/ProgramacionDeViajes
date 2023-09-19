@@ -5,6 +5,17 @@
 [class*=sidebar-dark-] {
     background: linear-gradient(to bottom, rgb(97, 0, 0), rgb(160, 0, 0), rgb(228, 0, 0))!important;
 }
+/*BUSCADOR BARRA HORIZONTAL*/
+[class*=sidebar-dark] .btn-sidebar, [class*=sidebar-dark] .form-control-sidebar {
+    background-color: #e3e3e3!important;
+    border: 1px solid rgb(97, 0, 0)!important;
+    color: #343a40!important;
+}
+/*CAMPO SELECCIONADO DE LA BARRA HORIZONTAL*/
+.sidebar-dark-danger .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-danger .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #fff!important;
+    color: #4e5257!important;
+}
 /*COLORES DE LA BARRA HORIZONTAL*/
 .navbar-dark {
     background-color: #ffffff !important;
@@ -17,6 +28,18 @@
 
 .content-wrapper {
     background-color: #f4f6f9 !important;
+}
+.content-wrapper-i {
+    background-color: #fff !important;
+}
+
+
+.navbar-light {
+    background-color: #fff!important;
+}
+.main-header {
+    border-bottom: 1px solid #dee2e6!important;
+    z-index: 1034;
 }
 /*COLOR DEL BOTON DESPLEGABLE*/
 .navbar-white {
@@ -58,5 +81,15 @@
 /*BOTON DE HOME*/
 .alert a {
     color: #fff;
-    text-decoration: auto;
+    text-decoration: auto!important;
 }
+
+/*BARRA DE PROGRESO*/
+.progress-bar-danger{
+    background-color: #dc3545 !important;
+ }
+
+/*COLOR DE LAS LETRAS DE LA BARRA LATERAL HIZQUIERDA
+[class*=sidebar-dark-] .sidebar a {
+    color: rgba(255,255,255,.8);
+}*/

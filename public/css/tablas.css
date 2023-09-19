@@ -1,20 +1,17 @@
-.card-primary:not(.card-outline)>.card-header {
-    background-color: #af0011 !important;
+.card-header {
+    /*background-color: #fd7e14;*/
+    background-color: #6a95aa;
+    border-bottom: 1px solid #fff;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
 }
-.btn-primary-G {
-    color: #060606 !important;
-    background-color: #fab907 !important;
-    border-color: #fab907 !important;
-    box-shadow: none !important;
-}
-.btn-primary-G:hover {
-    color: #060606;
-    background-color: #fd9c00 !important;
-    border-color: #fd9c00 !important;
-    box-shadow: none !important;
-}
-.card-footer {
-    padding: 0.75rem 1.25rem !important;
-    background-color: #fff !important;
-    border-top: 0 solid rgba(0,0,0,.125)!important;
+
+.card-title {
+    color: white;
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
 }

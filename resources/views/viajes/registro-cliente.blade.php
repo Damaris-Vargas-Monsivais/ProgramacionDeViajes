@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'DUMA')
+@section('title', 'Clientes')
 
 @section('content_header')
 <h1></h1>
@@ -16,7 +16,7 @@
             </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index">Home</a></li>
                     <li class="breadcrumb-item active">Registro de Clientes</li>
                 </ol>
             </div>
@@ -53,9 +53,9 @@
         </div> 
     </div>       
 </section>
-<footer class="m-footer">
-    <div class="float-right d-none d-sm-block">
-        <a href="www.gduma.com">Pagina web de Duma</a>.
+<footer class="main-footer">
+    <div class="float-end d-none d-sm-inline">
+       <a href="www.gduma.com">Pagina web de Duma</a>.
     </div>
     <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
@@ -63,7 +63,8 @@
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-<link rel="stylesheet" href="{{ asset('css/tablas.css') }}">
+<link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
+<link rel="stylesheet" href="{{ asset('css/formulario.css') }}">
 @stop
 
 @section('js')

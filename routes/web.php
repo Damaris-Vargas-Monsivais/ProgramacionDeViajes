@@ -29,8 +29,14 @@ Route::get('/registro-viaje', function () {
 Route::get('/home', function () {
     return view('viajes.home');
 });
+Route::get('/clasificacion', function () {
+    return view('viajes.clasificacion');
+});
 Route::get('/viajes-pendientes', function () {
     return view('viajes.viajes-pendientes');
+});
+Route::get('/viajes-terminados', function () {
+    return view('viajes.viajes-terminados');
 });
 
 Route::get('/registro-tracto', function () {
@@ -53,3 +59,11 @@ Route::get('/', function () {
     return view('inicio.login'); //Al iniciar el servidor, dirigir al login.
 });*/
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

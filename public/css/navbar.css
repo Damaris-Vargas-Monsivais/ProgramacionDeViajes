@@ -1,0 +1,48 @@
+/*COLORES DE LA INFORMACION Y FOTO DE PERFIL*/
+.bg-p {
+    background-color: #3f6791!important;
+}
+
+.dropdown-menu {
+    color: #ffffff!important;
+}
+/*COLORES DEL BOTON DE LA CUENTA Y LAS OPCIONES DEL PERFIL*/
+.btn-info {
+    color: #fff!important;
+    background-color: #17a2b8!important;
+    border-color: #17a2b8!important;
+    box-shadow: none!important;
+}
+.bt-4, .px-4 {
+    padding-left: 0.5rem!important;
+}
+.bt-2 {
+    padding: 0.5rem!important;
+}
+
+.dropdown-item {
+    color: #626870!important;
+}    
+.feather-sm {
+    width: 18px;
+    height: 18px;
+}
+.text-info {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-info-rgb),var(--bs-text-opacity))!important;
+}
+.ms-1 {
+    margin-left: 0.25rem!important;
+}
+.me-1 {
+    margin-right: 0.25rem!important;
+}
+img, svg {
+    vertical-align: middle;
+}
+* {
+    outline: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}

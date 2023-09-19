@@ -1,12 +1,27 @@
 @extends('adminlte::page')
 
-@section('title', 'DUMA')
+@section('title', 'Viajes Pendientes')
 
 @section('content_header')
 <h1></h1>
 @stop
 
 @section('content')
+<section class="content-header">
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1>Viajes Pendientes</h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="index">Home</a></li>
+          <li class="breadcrumb-item active">Viajes Pendientes</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
 
 <div class="row">
   <div class="col-12">
@@ -31,9 +46,10 @@
         <table class="table table-hover text-nowrap">
           <thead>
             <tr>
+              <th> </th>
               <th>ID</th>
-              <th>Progress</th>
-              <th style="width: 40px">Label</th>
+              <th>Progreso</th>
+              <th style="width: 40px">Porcentaje</th>
               <th>Fecha de Carga</th>
               <th>Fecha de Salida</th>
               <th>Fecha de Llegada</th>
@@ -51,6 +67,14 @@
           </thead>
           <tbody>
             <tr>
+              <td>   
+              <a class="btn btn-app bg-success">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a class="btn btn-app bg-danger">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </td>
               <td>TR11-081</td>
               <td>
                 <div class="progress progress-xs">
@@ -73,6 +97,14 @@
               <td>Gomez Palacio</td>
             </tr>
             <tr>
+              <td>   
+              <a class="btn btn-app bg-success">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a class="btn btn-app bg-danger">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </td>
               <td>TR14-087</td>
               <td>
                 <div class="progress progress-xs progress-striped active">
@@ -95,6 +127,14 @@
               <td>Gomez Palacio</td>
             </tr>
             <tr>
+              <td>   
+              <a class="btn btn-app bg-success">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a class="btn btn-app bg-danger">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </td>
               <td>TR07-081</td>
               <td>
                 <div class="progress progress-xs progress-striped active">
@@ -117,6 +157,14 @@
               <td>Gomez Palacio</td>
             </tr>
             <tr>
+              <td>   
+              <a class="btn btn-app bg-success">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a class="btn btn-app bg-danger">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </td>
               <td>TR06-037</td>
               <td>
                 <div class="progress progress-xs">
@@ -147,17 +195,19 @@
   </div>
 </div>
 
-<footer class="m-footer">
-  <div class="float-right d-none d-sm-block">
-    <a href="www.gduma.com">Pagina web de Duma</a>.
-  </div>
-  <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
+<footer class="main-footer">
+    <div class="float-end d-none d-sm-inline">
+       <a href="www.gduma.com">Pagina web de Duma</a>.
+    </div>
+    <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
 @stop
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/tablas.css') }}">
+<link rel="stylesheet" href="{{ asset('css/viajes-proceso.css') }}">
 @stop
 
 @section('js')
