@@ -1,0 +1,28 @@
+.card-primary:not(.card-outline)>.card-header {
+    background-color: #7d0505;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #7d0505;
+}
+
+.profile-user-img {
+    border: 3px solid #ffbb83;
+    margin: 0 auto;
+    padding: 3px;
+    width: 100px;
+}
+
+.list-group-item  a {
+    color: #6c757d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.dropdown-item a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*IMPLEMENTACION DE LOS COLORES DEL PERFIL*/
