@@ -253,7 +253,7 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => '/admin',
+    'dashboard_url' => '/index',
     'logout_url' => 'logout',
     'login_url' => 'login',
     'register_url' => 'register',
@@ -296,13 +296,9 @@ return [
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
-        ],
+        ],        
+        ['header' => 'Programación de Viajes'],
         [
-            'text' => 'blog',
-            'url'  => '/index',
-            'can'  => 'manage-blog',
-        ],
-               [
             'text'        => 'Registro de Operadores',
             'url'         => '/registro-operador',
             'icon'        => 'far fa-fw fa-solid fa-address-card',
@@ -313,29 +309,18 @@ return [
             'icon'        => 'fas fa-fw fa-solid fa-user-tie',
         ],
         [
-            'text'        => 'Registro de Tractos',
-            'url'         => '/registro-tracto',
-            'icon'        => 'fas fa-solid fa-truck',
-        ],
-        [
-            'text'        => 'Registro de Remolque',
-            'url'         => '/registro-remolque',
-            'icon'        => 'fas fa-truck-loading',
-        ],
-        ['header' => 'Programacion de Viajes'],
-        [
             'text' => 'Viajes',
-            'icon' => 'fas fa-fw fa-file-alt',
+            'icon' => 'fas fa-fw fa-solid fa-truck-moving',
             'submenu' => [
                 [
                     'text' => 'Registro de nuevo viaje',
                     'url'  => '/registro-viaje',
-                    'icon' => 'fas fa-fw ',
+                    'icon' => 'fas fa-arrow-circle-right',
                 ],
                 [
                     'text' => 'Viajes registrados',
-                    'url'  => '/home',
-                    'icon' => 'fas fa-fw ',                     
+                    'url'  => '/categoria-viajes',
+                    'icon' => 'fas fa-arrow-circle-right',                     
                 ],
             ],
         ],
@@ -344,11 +329,24 @@ return [
             'url'  => '/registro-viaje',
             'icon' => 'fas fa-fw fa-file-alt',
         ],*/
+        ['header' => 'Venta de Viajes'],
         [
-            'text' => 'Datos de venta',
-            'url'  => '/datos-venta',
+            'text' => 'Ventas',
             'icon' => 'fas fa-fw far fa-handshake',
-        ],/*
+            'submenu' => [
+                [
+                    'text' => 'Registro de datos de venta',
+                    'url'  => '/datos-venta',
+                    'icon' => 'fas fa-arrow-circle-right',
+                ],
+                [
+                    'text' => 'Ventas registradas',
+                    'url'  => '/categoria-venta',
+                    'icon' => 'fas fa-arrow-circle-right',                     
+                ],
+            ],
+        ],
+/*
         [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
@@ -389,9 +387,35 @@ return [
         ],*/
         ['header' => 'Reseteo'],
         [
+            'text' => 'Registro de Tractos',
+            'url' => '/registro-tracto',
+            'icon' => 'fas fa-solid fa-truck',
+        ],
+        [
+            'text' => 'Registro de Remolque',
+            'url' => '/registro-remolque',
+            'icon' => 'fas fa-truck-loading',
+        ],
+        [
+            'text' => 'Reseteos',
+            'icon' => 'fas fa-fw fas fa-gas-pump',
+            'submenu' => [
+                [
+                    'text' => 'Registro de Reseteo',
+                    'url'  => '/registro-reseteo',
+                    'icon' => 'fas fa-arrow-circle-right',
+                ],
+                [
+                    'text' => 'Reseteos registrados',
+                    'url'  => '/categoria-reseteo',
+                    'icon' => 'fas fa-arrow-circle-right',                     
+                ],
+            ],
+        ],
+        [
             'text' => 'PRUEBA',
             'url'  => '/prueba',
-            'icon' => 'fas fa-fw far fa-handshake',
+            'icon' => 'fas fa-fw fa-tachometer-alt',
         ],/*
         [
             'text'       => 'important',

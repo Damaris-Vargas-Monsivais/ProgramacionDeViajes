@@ -16,7 +16,7 @@
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="index">Home</a></li>
-                    <li class="breadcrumb-item active">Clasificación</li>
+                    <li class="breadcrumb-item active">Clasificación de Reseteos</li>
                 </ol>
             </div>
         </div>
@@ -33,7 +33,7 @@
                       <div class="alert alert-warning alert-dismissible text-center margin-bottom-1x">
                         
                         <i class='far fa-fw fa-solid fa-clock'></i>&nbsp;&nbsp;
-                        <a href="viajes-pendientes" class="text-medium">PENDIENTES</a>
+                        <a href="reseteos-pendientes" class="text-medium">PENDIENTES</a>
                       </div>
                     </div>
                     
@@ -41,7 +41,7 @@
                       <div class="alert alert-success alert-dismissible text-center margin-bottom-1x">
                    
                       <i class="fas fa-check-circle"></i>&nbsp;&nbsp;
-                        <a href="clasificacion" class="text-medium">ENTREGADOS</a>                                  
+                        <a href="reseteos-terminados" class="text-medium">ENTREGADOS</a>                                  
                       </div>
                     </div>
                 </div>

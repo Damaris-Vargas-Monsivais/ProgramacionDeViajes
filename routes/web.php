@@ -23,14 +23,15 @@ Route::get('/registro-cliente', function () {
 Route::get('/registro-operador', function () {
     return view('viajes.registro-operador');
 });
+/*VIAJES*/ 
 Route::get('/registro-viaje', function () {
     return view('viajes.registro-viaje');
 });
-Route::get('/home', function () {
-    return view('viajes.home');
+Route::get('/categoria-viajes', function () {
+    return view('viajes.categoria-viajes');
 });
-Route::get('/clasificacion', function () {
-    return view('viajes.clasificacion');
+Route::get('/clasificacion-viajes', function () {
+    return view('viajes.clasificacion-viajes');
 });
 Route::get('/viajes-pendientes', function () {
     return view('viajes.viajes-pendientes');
@@ -38,15 +39,41 @@ Route::get('/viajes-pendientes', function () {
 Route::get('/viajes-terminados', function () {
     return view('viajes.viajes-terminados');
 });
-
+/*VENTA DE VIAJES*/
+Route::get('/datos-venta', function () {
+    return view('venta.datos-venta');
+});
+Route::get('/categoria-venta', function () {
+    return view('venta.categoria-venta');
+});
+Route::get('/ventas-pendientes', function () {
+    return view('venta.ventas-pendientes');
+});
+Route::get('/ventas-terminadas', function () {
+    return view('venta.ventas-terminadas');
+});
+/**RESETEOS */
+Route::get('/registro-reseteo', function () {
+    return view('reseteo.registro-reseteo');
+});
 Route::get('/registro-tracto', function () {
     return view('reseteo.registro-tracto');
 });
 Route::get('/registro-remolque', function () {
     return view('reseteo.registro-remolque');
 });
-Route::get('/datos-venta', function () {
-    return view('venta.datos-venta');
+Route::get('/categoria-reseteo', function () {
+    return view('reseteo.categoria-reseteo');
+});
+Route::get('/reseteos-pendientes', function () {
+    return view('reseteo.reseteos-pendientes');
+});
+Route::get('/reseteos-terminados', function () {
+    return view('reseteo.reseteos-terminados');
+});
+/**PERFIL */
+Route::get('/editar-perfil', function () {
+    return view('perfil.editar-perfil');
 });
 
 

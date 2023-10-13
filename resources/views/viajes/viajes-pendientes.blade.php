@@ -68,7 +68,7 @@
           <tbody>
             <tr>
               <td>   
-              <a class="btn btn-app bg-success">
+                <a class="btn btn-app bg-success" href="registro-viaje">
                   <i class="fas fa-edit"></i>
                 </a>
                 <a class="btn btn-app bg-danger">
@@ -98,7 +98,7 @@
             </tr>
             <tr>
               <td>   
-              <a class="btn btn-app bg-success">
+              <a class="btn btn-app bg-success" href="registro-viaje">
                   <i class="fas fa-edit"></i>
                 </a>
                 <a class="btn btn-app bg-danger">
@@ -128,7 +128,7 @@
             </tr>
             <tr>
               <td>   
-              <a class="btn btn-app bg-success">
+              <a class="btn btn-app bg-success" href="registro-viaje">
                   <i class="fas fa-edit"></i>
                 </a>
                 <a class="btn btn-app bg-danger">
@@ -158,7 +158,7 @@
             </tr>
             <tr>
               <td>   
-              <a class="btn btn-app bg-success">
+              <a class="btn btn-app bg-success" href="registro-viaje">
                   <i class="fas fa-edit"></i>
                 </a>
                 <a class="btn btn-app bg-danger">

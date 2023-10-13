@@ -123,12 +123,13 @@
                   <label>Número de Trácto</label>
                   <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
                     <option selected="selected">1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
                     <option>7</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
                   </select>
                 </div>
               </div>
@@ -138,11 +139,19 @@
                   <select class="form-control select2 select2-danger" data-dropdown-css-class="select2-danger" style="width: 100%;">
                     <option selected="selected">1</option>
                     <option>2</option>
-                    <option>3</option>
                     <option>4</option>
-                    <option>5</option>
                     <option>6</option>
-                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>15</option>
+                    <option>35</option>
+                    <option>36</option>
+                    <option>55</option>
+                    <option>56</option>
+                    <option>58</option>
+                    <option>87</option>                    
                   </select>
                 </div>
               </div>
