@@ -1,0 +1,68 @@
+/*COLOR DE FONDO DE LA TABLA*/
+:root,[data-bs-theme=light] {  
+    --bs-body-bg: #fff;
+}
+
+/*BORDES DIFUMINADOS*/
+.card {   
+    --bs-card-bg: var(--bs-body-bg);  
+    box-shadow: var(--bs-card-box-shadow)
+}
+/*TEXT BOX CENTRADO*/
+.v-middle td, .v-middle th {
+    vertical-align: middle;
+}
+
+/*CHECK LIST ACTIVADO*/
+.form-check-input {
+    --bs-form-check-bg: #eaedf5;
+    width: 1.375em;
+    height: 1.375em;
+    margin-top: .0625em;
+    vertical-align: top;
+    background-color: var(--bs-form-check-bg);
+    background-image: var(--bs-form-check-bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 0;
+    appearance: none;
+    print-color-adjust: exact
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 4px
+}
+
+.form-check-input[type=radio] {
+    border-radius: 50%
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e")
+}
+
+.ms-3 {
+    margin-left: 1rem !important
+}
+
+.form-check-input.primary:checked {
+    background-color: #ee6060 !important;
+    border-color: #ee6060 !important
+}
+
+.form-check-input.secondary:checked {
+    background-color: #868e96 !important;
+    border-color: #868e96 !important
+}
+
+.round {
+    line-height: 45px;
+    width: 45px;
+    height: 45px
+}
+
+.feather-sm {
+    width: 18px;
+    height: 18px
+}

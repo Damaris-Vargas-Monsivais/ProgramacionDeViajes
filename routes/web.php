@@ -75,6 +75,9 @@ Route::get('/reseteos-terminados', function () {
 Route::get('/editar-perfil', function () {
     return view('perfil.editar-perfil');
 });
+Route::get('/administrador', function () {
+    return view('perfil.administrador');
+});
 
 
 Route::get('/prueba', function () {

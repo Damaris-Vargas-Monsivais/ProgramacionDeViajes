@@ -1,26 +1,26 @@
 @extends('adminlte::page')
-<!-----Implementa la vista de adminlte------>
-@section('title', 'Operadores')
-<!-----Aqui podemos agregar un titulo a nuestra pagina------>
-@section('content_header')
 
+@section('title', 'Registro de operador')
+
+@section('content_header')
+<h1></h1>
 @stop
-<!-----Agregamos un header a nuestra pagina------>
+
 @section('content')
 <section class="content-header">
-    <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-sm-6">
-                <h1>Registro de Operadores</h1>
-            </div>
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="index">Home</a></li>
-                    <li class="breadcrumb-item active">Registro de Operadores</li>
-                </ol>
-            </div>
-        </div>
+  <div class="container-fluid">
+    <div class="row mb-2">
+      <div class="col-sm-6">
+        <h1>Registro de Operadores</h1>
+      </div>
+      <div class="col-sm-6">
+        <ol class="breadcrumb float-sm-right">
+          <li class="breadcrumb-item"><a href="index">Home</a></li>
+          <li class="breadcrumb-item active">Registro de Operadores</li>
+        </ol>
+      </div>
     </div>
+  </div>
 </section>
 
 <section class="content">
@@ -348,12 +348,9 @@
 <script src="{{ asset('plugins/bs-stepper/js/bs-stepper.min.js') }}"></script>
 <!-- dropzonejs -->
 <script src="{{ asset('plugins/dropzone/min/dropzone.min.js') }}"></script>
-<!-- AdminLTE App -->
-<script src="{{ asset('dist/js/adminlte.min.js') }}"></script>
+
 @stop
 <!-----aqui agregamos Java Script------>
 @section('js')
-<script>
-    console.log('Hi!');
-</script>
+
 @stop

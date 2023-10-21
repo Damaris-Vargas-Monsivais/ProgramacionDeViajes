@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'PRUEBA')
+@section('title', 'Configuración de la cuenta')
 
 @section('content_header')
 
@@ -46,10 +46,10 @@
                         <hr>
                         <strong><i class="fa fa-solid fa-phone"></i> Télefono</strong>
                         <p class="text-muted">8712345768</p>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <!----TABS DEL PERFIL---->
             <div class="col-md-9">
@@ -70,12 +70,12 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-md-3 col-xs-6 b-r">
-                                            <strong>Full Name</strong>
+                                            <strong>Nombre</strong>
                                             <br>
                                             <p class="text-muted">Johnathan Deo</p>
                                         </div>
                                         <div class="col-md-3 col-xs-6 b-r">
-                                            <strong>Mobile</strong>
+                                            <strong>Télefono</strong>
                                             <br>
                                             <p class="text-muted">(123) 456 7890</p>
                                         </div>
@@ -84,11 +84,11 @@
                                             <br>
                                             <p class="text-muted">johnathan@admin.com</p>
                                         </div>
-                                        <div class="col-md-3 col-xs-6">
+                                        <!---<div class="col-md-3 col-xs-6">
                                             <strong>Location</strong>
                                             <br>
                                             <p class="text-muted">London</p>
-                                        </div>
+                                        </div>---->
                                     </div>
                                     <hr>
                                     <p class="mt-4">
@@ -105,7 +105,7 @@
                             <div class="tab-pane fade" id="custom-tabs-one-settings" role="tabpanel" aria-labelledby="custom-tabs-one-settings-tab">
                                 <form class="form-horizontal form-material">
                                     <div class="mb-3">
-                                        <label class="col-md-12">Full Name</label>
+                                        <label class="col-md-12">Nombre</label>
                                         <div class="col-md-12">
                                             <input type="text" placeholder="Johnathan Doe" class="form-control form-control-line">
                                         </div>
@@ -117,39 +117,51 @@
                                         </div>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="col-md-12">Password</label>
+                                        <label class="col-md-12">Contraseña</label>
                                         <div class="col-md-12">
                                             <input type="password" value="password" class="form-control form-control-line">
                                         </div>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="col-md-12">Phone No</label>
+                                        <label class="col-md-12">Número de télefono</label>
                                         <div class="col-md-12">
                                             <input type="text" placeholder="123 456 7890" class="form-control form-control-line">
                                         </div>
                                     </div>
                                     <div class="mb-3">
-                                        <label class="col-md-12">Message</label>
+                                        <label class="col-md-12">Mensaje</label>
                                         <div class="col-md-12">
                                             <textarea rows="5" class="form-control form-control-line"></textarea>
                                         </div>
                                     </div>
+
+
+
                                     <div class="mb-3">
-                                        <label class="col-sm-12">Select Country</label>
-                                        <div class="col-sm-12">
-                                            <select class="form-control form-control-line">
-                                                <option>London</option>
-                                                <option>India</option>
-                                                <option>Usa</option>
-                                                <option>Canada</option>
-                                                <option>Thailand</option>
-                                            </select>
+                                        <label class="col-sm-12">Subir foto </label>
+                                        <div class="dropify-wrapper">
+                                            <div class="dropify-message"><span class='fas fa-cloud-upload-alt' style="font-size:36px;"></span>
+                                                <p>Drag and drop a file here or click</p>
+                                                <p class="dropify-error">Ooops, something wrong appended.</p>
+                                            </div>
+                                            <div class="dropify-loader" style="display: none;"></div>
+                                            <div class="dropify-errors-container">
+                                                <ul></ul>
+                                            </div><input type="file" id="input-file-now" class="dropify"><button type="button" class="dropify-clear">Remove</button>
+                                            <div class="dropify-preview" style="display: none;"><span class="dropify-render"></span>
+                                                <div class="dropify-infos">
+                                                    <div class="dropify-infos-inner">
+                                                        <p class="dropify-filename"><span class="file-icon"></span> <span class="dropify-filename-inner">ECharts.png</span></p>
+                                                        <p class="dropify-infos-message">Drag and drop or click to replace</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="mb-3">
                                         <div class="col-sm-12">
                                             <button class="btn btn-success">
-                                                Update Profile
+                                                Actualizar información personal
                                             </button>
                                         </div>
                                     </div>
@@ -179,6 +191,7 @@
 <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 <link rel="stylesheet" href="{{ asset('css/perfil.css') }}">
 <link rel="stylesheet" href="./css/adminlte.css">
+<link rel="stylesheet" href="{{ asset('css/dropify.min.css') }}">
 
 @stop
 

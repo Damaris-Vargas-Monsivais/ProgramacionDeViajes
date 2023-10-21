@@ -38,12 +38,11 @@
               <div class="col-sm-6">
                 <div class="form-group">
                   <label>Fecha de carga de diesel inicial</label>
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
-                    <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                      <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                  <form class="">
+                    <div class="form-group">
+                      <input type="date" class="form-control" value="yyyy-mm-dd">
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -173,12 +172,11 @@
               <div class="col-sm-6">
                 <div class="form-group">
                   <label>Fecha de carga de litros de diesel</label>
-                  <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                    <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
-                    <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                      <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                  <form class="">
+                    <div class="form-group">
+                      <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                     </div>
-                  </div>
+                  </form>
                 </div>
               </div>
               <div class="col-sm-6">

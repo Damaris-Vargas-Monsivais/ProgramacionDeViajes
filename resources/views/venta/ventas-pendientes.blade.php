@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Viajes Pendientes')
+@section('title', 'Ventas Pendientes')
 
 @section('content_header')
 <h1></h1>
@@ -142,6 +142,7 @@
 <link rel="stylesheet" href="{{ asset('dist/css/adminlte.min.css') }}">
 <link rel="stylesheet" href="{{ asset('css/tablas.css') }}">
 <link rel="stylesheet" href="{{ asset('css/viajes-proceso.css') }}">
+
 @stop
 
 @section('js')

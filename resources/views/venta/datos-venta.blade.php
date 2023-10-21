@@ -54,12 +54,11 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label>Fecha de factura</label>
-                                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate" />
-                                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                    <form class="">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -106,7 +105,7 @@
 </section>
 <footer class="main-footer">
     <div class="float-end d-none d-sm-inline">
-       <a href="www.gduma.com">Pagina web de Duma</a>.
+        <a href="www.gduma.com">Pagina web de Duma</a>.
     </div>
     <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>

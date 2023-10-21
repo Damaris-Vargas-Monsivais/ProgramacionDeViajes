@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Clasificación')
+@section('title', 'Clasificación de viajes')
 
 @section('content_header')
 <h1></h1>

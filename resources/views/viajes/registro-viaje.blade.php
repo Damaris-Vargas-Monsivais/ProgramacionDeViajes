@@ -36,40 +36,37 @@
           <div class="card-body">
             <div class="row">
               <div class="col-sm-6">
-                 <!-- Date -->
+                <!-- Date -->
                 <div class="form-group">
-                    <label>Fecha de carga</label>
-                    <div class="input-group date" id="reservationdate" data-target-input="nearest">
-                        <input type="text" class="form-control datetimepicker-input" data-target="#reservationdate"/>
-                        <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker">
-                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                        </div>
+                  <label>Fecha de carga</label>
+                  <form class="">
+                    <div class="form-group">
+                      <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                     </div>
+                  </form>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
                   <label>Fecha de salida</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                  <form class="">
+                    <div class="form-group">
+                      <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
 
             <div class="row">
               <div class="col-sm-6">
-              <div class="form-group">
+                <div class="form-group">
                   <label>Fecha de llegada</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                  <form class="">
+                    <div class="form-group">
+                      <input type="date" class="form-control" placeholder="dd/mm/yyyy">
                     </div>
-                    <input type="text" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask>
-                  </div>
+                  </form>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -90,15 +87,9 @@
               <div class="col-sm-6">
                 <div class="form-group">
                   <label>Semana</label>
-                  <select class="form-control select2" style="width: 100%;">
-                    <option selected="selected">1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                  </select>
+                  <div class="form-group">
+                      <input type="week" class="form-control" value="yyyy-W00">
+                    </div>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -151,7 +142,7 @@
                     <option>55</option>
                     <option>56</option>
                     <option>58</option>
-                    <option>87</option>                    
+                    <option>87</option>
                   </select>
                 </div>
               </div>
@@ -173,7 +164,7 @@
                 </div>
               </div>
               <div class="col-sm-6">
-              <div class="form-group">
+                <div class="form-group">
                   <label>Estado de Origen</label>
                   <select class="form-control select2" style="width: 100%;">
                     <option selected="selected">Coahuila</option>
@@ -184,7 +175,7 @@
                     <option>Veracruz</option>
                     <option>Puebla</option>
                   </select>
-                </div>                           
+                </div>
               </div>
             </div>
 
@@ -192,7 +183,7 @@
               <div class="col-sm-6">
                 <div class="form-group">
                   <label>Ciudad de Origen</label>
-                  <select class="form-control select2"  style="width: 100%;">
+                  <select class="form-control select2" style="width: 100%;">
                     <option selected="selected">Torreón</option>
                     <option>Gomez Palacio</option>
                     <option>Lerdo</option>
@@ -247,10 +238,10 @@
 </section>
 
 <footer class="main-footer">
-    <div class="float-end d-none d-sm-inline">
-       <a href="www.gduma.com">Pagina web de Duma</a>.
-    </div>
-    <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
+  <div class="float-end d-none d-sm-inline">
+    <a href="www.gduma.com">Pagina web de Duma</a>.
+  </div>
+  <strong>Copyright &copy; <b>Todos los derechos reservados</b>.</strong>
 </footer>
 @stop
 

@@ -27,3 +27,12 @@
     vertical-align: initial;
     border-top: 1px solid #dee2e6;
 }
+/*BORDES DIFUMINADOS*/
+.card {   
+    --bs-card-bg: var(--bs-body-bg);  
+    box-shadow: var(--bs-card-box-shadow)
+}
+.card-header{
+    --bs-card-bg: var(--bs-body-bg);  
+    box-shadow: var(--bs-card-box-shadow) 
+}

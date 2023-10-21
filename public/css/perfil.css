@@ -19,10 +19,53 @@
     background-color: transparent;
 }
 
-.dropdown-item a {
-    color: #ffffff;
+/*COLORES MENU DESPEGABLE DEL PERFIL*/
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+a {
+    color: #343a40;
     text-decoration: none;
     background-color: transparent;
 }
 
-/*IMPLEMENTACION DE LOS COLORES DEL PERFIL*/
+
+.dropdown-menu-lg .dropdown {
+    padding: 0.5rem 1rem;
+}
+.dropdown-menu-lg .dropdown {
+    padding: 0.5rem 1rem;
+}
+.dropdown {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown {
+    color: rgba(52,58,64,.8)!important;
+}
+.dropdown {
+    color: #626870!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*PERFIL HACIA LA DERECHA Y VISIBLE*/
+.dropdown-menu-end[data-bs-popper] {
+    right: 0;
+    left: auto
+}
+
+.ms-auto {
+    margin-left: auto !important
+}
+

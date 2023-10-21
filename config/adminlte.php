@@ -416,6 +416,12 @@ return [
             'text' => 'PRUEBA',
             'url'  => '/prueba',
             'icon' => 'fas fa-fw fa-tachometer-alt',
+        ],
+        ['header' => 'Administración de cuentas'],
+        [
+            'text' => 'Información de los usuarios',
+            'url' => '/administrador',
+            'icon' => 'fas fa-solid fa-users',
         ],/*
         [
             'text'       => 'important',

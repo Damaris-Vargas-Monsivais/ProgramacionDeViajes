@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Clasificación')
+@section('title', 'Años y meses')
 
 @section('content_header')
 
