@@ -46,7 +46,7 @@
         <table class="table table-hover text-nowrap">
           <thead>
             <tr>
-              <th> </th>
+              <th>Acción</th>
               <th>ID</th>
               <th>Progreso</th>
               <th style="width: 40px">Porcentaje</th>

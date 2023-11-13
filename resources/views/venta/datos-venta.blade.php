@@ -38,14 +38,14 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label for="exampleInputName">Numero de carta de instrucción</label>
-                                    <input type="name" class="form-control" id="exampleInputName" placeholder="Numero">
+                                    <label for="exampleInputName">Número de carta de instrucción</label>
+                                    <input type="name" class="form-control" id="exampleInputName" placeholder="Código de la carta de instrucción">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="exampleInputFactura">Factura</label>
-                                    <input type="number" class="form-control" id="exampleInputFactura" placeholder="Numero de Factura">
+                                    <input type="number" class="form-control" id="exampleInputFactura" placeholder="Número de Factura">
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="exampleInputMoneda">Moneda</label>
-                                    <input type="money" class="form-control" id="exampleInputMoneda" placeholder="MXN">
+                                    <input type="money" class="form-control" id="exampleInputMoneda" placeholder="Moneda en la que se realiza el pago">
                                 </div>
                             </div>
                         </div>

@@ -114,7 +114,7 @@
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label for="exampleInputLicencia">Matrícula de la licencia</label>
-                                    <input type="number" class="form-control" id="exampleInputLicencia" placeholder="Numero de licencia">
+                                    <input type="text" class="form-control" id="exampleInputLicencia" placeholder="Número de licencia">
                                 </div>
                             </div>
                         </div>

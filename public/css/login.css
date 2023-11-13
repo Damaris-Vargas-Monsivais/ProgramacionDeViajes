@@ -1,0 +1,16 @@
+.card-primary.card-outline {
+    border-top: 3px solid #530008 !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #530008!important;
+    border-color: #530008!important;
+    box-shadow: none;
+}
+
+a {
+    color: #8b141f!important;
+    text-decoration: none;
+    background-color: transparent;
+}

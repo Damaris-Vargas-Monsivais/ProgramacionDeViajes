@@ -1,6 +1,6 @@
 .card-header {
     /*background-color: #fd7e14;*/
-    background-color: #6a95aa;
+    background-color: #B88562;
     border-bottom: 1px solid #fff;
     padding: 0.75rem 1.25rem;
     position: relative;
@@ -14,4 +14,35 @@
     font-size: 1.1rem;
     font-weight: 400;
     margin: 0;
+}
+
+/*CLASIFICACIÓN POR MES*/
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #85000d;
+    border-color: #85000d;
+}
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #85000d;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+a {
+    color: #85000d;
+    text-decoration: none;
+    background-color: transparent;
+}
+a {
+    color: #85000d;
+    text-decoration: none;
+    background-color: transparent;
 }

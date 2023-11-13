@@ -41,7 +41,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputName">Nombre del Cliente</label>
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Empresa">
+                                <input type="name" class="form-control" id="exampleInputName" placeholder="Razón social de la empresa">
                             </div>
                         </div>
                         <div class="card-footer">

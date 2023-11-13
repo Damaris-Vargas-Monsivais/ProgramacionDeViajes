@@ -18,3 +18,10 @@
     background-color: #fff !important;
     border-top: 0 solid rgba(0,0,0,.125)!important;
 }
+
+/*CLASIFICACIÓN POR MES*/
+a {
+    color: #85000d;
+    text-decoration: none;
+    background-color: transparent;
+}
