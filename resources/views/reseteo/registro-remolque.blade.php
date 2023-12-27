@@ -29,7 +29,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-12">
 
                 <div class="card card-primary">
                     <div class="card-header">
@@ -40,7 +40,7 @@
                     <form>
                         <div class="card-body">
                             <div class="form-group">
-                                <label for="exampleInputTracto">Numero de Remolque</label>
+                                <label for="exampleInputTracto">Número de Remolque</label>
                                 <input type="name" class="form-control" id="exampleInputTracto" placeholder="Remolque">
                             </div>
                         </div>
